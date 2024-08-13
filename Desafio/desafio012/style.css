@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    border: 0px;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+header > p {
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-shadow: 1px 1px 2px white;
+}
